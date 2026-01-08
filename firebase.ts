@@ -3,7 +3,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD636K3W5TQH-3SpdqHmmf_oJ4NLayyPhY",
+  apiKey: "MY API KEY",
   authDomain: "careersnap-1ab4f.firebaseapp.com",
   projectId: "careersnap-1ab4f",
   storageBucket: "careersnap-1ab4f.firebasestorage.app",
