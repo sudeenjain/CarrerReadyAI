@@ -1,46 +1,77 @@
 # CareerReadyAI 🚀
 
-CareerReadyAI is an AI-powered career guidance platform that helps users analyze skills, receive personalized feedback, and improve job readiness using modern web technologies and AI models.
+CareerReadyAI is a full-stack AI-powered application built with a **React (Vite) frontend** and a **FastAPI backend** for career analysis and feedback.
 
 ---
 
-## 🧠 Features
+## ▶️ Run Locally
 
-- AI-based career and skill analysis
-- Rule-based + Gemini-powered feedback system
-- Modern React UI with Vite
-- FastAPI backend for analysis processing
-- Firebase integration
-- Scalable and deployment-ready architecture
+### 🔹 Prerequisites
 
----
-
-## 🏗 Tech Stack
-
-### Frontend
-- React + TypeScript
-- Vite
-- Firebase
-- HTML5 / CSS3
-
-### Backend
-- Python
-- FastAPI
-- Gemini / Rule-based AI providers
+* Node.js (v18+)
+* Python (v3.9+)
+* npm & pip installed
 
 ---
 
+### 🔹 Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+Frontend will run at:
+
+```
+http://localhost:5173
+```
+
 ---
 
-## ⚙️ Environment Setup
+### 🔹 Backend Setup
 
-Create a `.env` file using `env.example`:
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
 
-```env
-VITE_FIREBASE_API_KEY=your_key
-VITE_FIREBASE_AUTH_DOMAIN=your_domain
-GEMINI_API_KEY=your_api_key
+Backend will run at:
 
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 🔗 Frontend ↔ Backend Communication
+
+Ensure the frontend API base URL points to the backend:
+
+```ts
+http://127.0.0.1:8000
+```
+
+---
 
 ## 📂 Project Structure
 
+```
+CarrerReadyAI/
+├── components/
+├── pages/
+├── utils/
+├── App.tsx
+├── main.py
+├── package.json
+├── requirements.txt
+├── vite.config.ts
+└── README.md
+```
+
+---
+
+## 👨‍💻 Author
+
+**Sudin Jain**
+GitHub: [https://github.com/sudeenjain](https://github.com/sudeenjain)
