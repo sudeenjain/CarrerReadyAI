@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Careersnap-web",
+  "description": "An AI-powered Career GPS for students and job seekers to identify skill gaps, track job readiness, and follow personalized learning roadmaps.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
