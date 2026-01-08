@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CareerReadyAI 🚀
 
-# Run and deploy your AI Studio app
+CareerReadyAI is an AI-powered career guidance platform that helps users analyze skills, receive personalized feedback, and improve job readiness using modern web technologies and AI models.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/19R_YWH0oy0oovTjyuSRW5yk2__uPAklE
+## 🧠 Features
 
-## Run Locally
+- AI-based career and skill analysis
+- Rule-based + Gemini-powered feedback system
+- Modern React UI with Vite
+- FastAPI backend for analysis processing
+- Firebase integration
+- Scalable and deployment-ready architecture
 
-**Prerequisites:**  Node.js
+---
+
+## 🏗 Tech Stack
+
+### Frontend
+- React + TypeScript
+- Vite
+- Firebase
+- HTML5 / CSS3
+
+### Backend
+- Python
+- FastAPI
+- Gemini / Rule-based AI providers
+
+---
+
+---
+
+## ⚙️ Environment Setup
+
+Create a `.env` file using `env.example`:
+
+```env
+VITE_FIREBASE_API_KEY=your_key
+VITE_FIREBASE_AUTH_DOMAIN=your_domain
+GEMINI_API_KEY=your_api_key
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📂 Project Structure
+
